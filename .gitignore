@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Datasets and large archives
+data/
+datasets/
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# YOLO / Ultralytics outputs
+runs/
+yolo_runs/
+wandb/
+
+# Model weights / exported models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.pb
+
+# Videos and heavy media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Raw images if accidentally placed in repo
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# But allow report/demo images
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.png
+!reports/**/*.jpg
+!reports/**/*.jpeg
+!reports/**/*.png
+!mvp1_detection/results/**/*.jpg
+!mvp1_detection/results/**/*.jpeg
+!mvp1_detection/results/**/*.png
+
+# Rclone / credentials / secrets
+rclone.conf
+credentials.json
+token.json
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Kaggle / Colab temporary files
+kaggle.json
+/content/
+kaggle/working/
